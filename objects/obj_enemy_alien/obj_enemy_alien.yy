@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shot_octopus",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "obj_enemy_alien",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shot_small_enemys",
-    "path": "sprites/spr_shot_small_enemys/spr_shot_small_enemys.yy",
+    "name": "spr_enemy_alien",
+    "path": "sprites/spr_enemy_alien/spr_enemy_alien.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shot_octopus",
+  "name": "obj_impact_shot",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "objs enemys",
-    "path": "folders/Objetos/objs enemys.yy",
+    "name": "objs effects",
+    "path": "folders/Objetos/objs effects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shot_small_enemys",
-    "path": "sprites/spr_shot_small_enemys/spr_shot_small_enemys.yy",
+    "name": "spr_impact_shot",
+    "path": "sprites/spr_impact_shot/spr_impact_shot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

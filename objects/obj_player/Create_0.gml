@@ -1,9 +1,9 @@
 /// @description 
-// 
+// Varivaeis iniciais
 _speed = 5;
 speed_shot = 30;
 was_fired = false;
-
+// Função de movimentação do player
 movement = function() {
 	var _left,_right,_up,_down;
 	_left = keyboard_check(ord("A"));
@@ -14,7 +14,7 @@ movement = function() {
 	x += (_right - _left)*_speed;
 	y += (_down - _up)*_speed;
 }
-
+// Função para atirar frequentemente
 shooting = function() {
 	var _space = keyboard_check(vk_space);
 	if _space and not was_fired {
@@ -22,5 +22,5 @@ shooting = function() {
 		instance_create_layer(x,y-sprite_height/2,"Instances",obj_shot_player);
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
-	
 }
+
