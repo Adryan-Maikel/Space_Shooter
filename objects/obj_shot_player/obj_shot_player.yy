@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
     "name": "spr_shot_player",
     "path": "sprites/spr_shot_player/spr_shot_player.yy",
