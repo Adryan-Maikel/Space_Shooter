@@ -34,6 +34,7 @@
     {"name":"spr_shot_player","order":1,"path":"sprites/spr_shot_player/spr_shot_player.yy",},
     {"name":"spr_effects_background_2","order":2,"path":"sprites/spr_effects_background_2/spr_effects_background_2.yy",},
     {"name":"obj_shot_alien","order":3,"path":"objects/obj_shot_alien/obj_shot_alien.yy",},
+    {"name":"spr_effect_shot_enemy","order":3,"path":"sprites/spr_effect_shot_enemy/spr_effect_shot_enemy.yy",},
     {"name":"spr_enemy_alien","order":2,"path":"sprites/spr_enemy_alien/spr_enemy_alien.yy",},
     {"name":"obj_shot_octopus","order":1,"path":"objects/obj_shot_octopus/obj_shot_octopus.yy",},
     {"name":"obj_explosion_enemy","order":1,"path":"objects/obj_explosion_enemy/obj_explosion_enemy.yy",},

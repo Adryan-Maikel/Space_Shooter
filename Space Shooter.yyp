@@ -56,6 +56,7 @@
     {"id":{"name":"spr_shot_player","path":"sprites/spr_shot_player/spr_shot_player.yy",},},
     {"id":{"name":"spr_effects_background_2","path":"sprites/spr_effects_background_2/spr_effects_background_2.yy",},},
     {"id":{"name":"obj_shot_alien","path":"objects/obj_shot_alien/obj_shot_alien.yy",},},
+    {"id":{"name":"spr_effect_shot_enemy","path":"sprites/spr_effect_shot_enemy/spr_effect_shot_enemy.yy",},},
     {"id":{"name":"src_initial","path":"scripts/src_initial/src_initial.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_enemy_alien","path":"sprites/spr_enemy_alien/spr_enemy_alien.yy",},},
