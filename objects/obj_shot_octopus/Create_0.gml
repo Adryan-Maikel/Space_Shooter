@@ -1,3 +1,3 @@
 /// @description
 // 
-vspeed = 6;
+vspeed = 4;
