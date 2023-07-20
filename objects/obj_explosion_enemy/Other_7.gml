@@ -1,3 +1,2 @@
 /// @description 
-//
 instance_destroy();

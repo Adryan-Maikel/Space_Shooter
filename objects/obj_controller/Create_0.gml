@@ -1,12 +1,12 @@
 /// @description 
-// 
+// Chamando o alarm em 1 segundo
 alarm[0] = game_get_speed(gamespeed_fps);
 
-//level
+// Criando sistema de waves com leveis
 level = 1;
 next_level = 100;
 
-//pontos
+#region Criando função de pontuação e progressão do level
 points = 0;
 ///@method earn_points(points)
 earn_points = function(_amount_points) {
@@ -16,7 +16,9 @@ earn_points = function(_amount_points) {
 		next_level*=2;
 	}
 }
+#endregion
 
+// Função para criar inimigos em ondas
 creating_enemys = function() {
 	var _x, _y, _enemy_choose;
 	_x = irandom_range(40, room_width-40);
