@@ -26,6 +26,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_effect_shot_player","order":2,"path":"sprites/spr_effect_shot_player/spr_effect_shot_player.yy",},
     {"name":"spr_explosion_enemys","order":1,"path":"sprites/spr_explosion_enemys/spr_explosion_enemys.yy",},
+    {"name":"obj_shot_player_two","order":2,"path":"objects/obj_shot_player_two/obj_shot_player_two.yy",},
     {"name":"obj_enemy_alien","order":2,"path":"objects/obj_enemy_alien/obj_enemy_alien.yy",},
     {"name":"obj_shot_player","order":1,"path":"objects/obj_shot_player/obj_shot_player.yy",},
     {"name":"spr_shot_small_enemys","order":1,"path":"sprites/spr_shot_small_enemys/spr_shot_small_enemys.yy",},
@@ -34,6 +35,7 @@
     {"name":"spr_shot_player","order":1,"path":"sprites/spr_shot_player/spr_shot_player.yy",},
     {"name":"spr_effects_background_2","order":2,"path":"sprites/spr_effects_background_2/spr_effects_background_2.yy",},
     {"name":"obj_shot_alien","order":3,"path":"objects/obj_shot_alien/obj_shot_alien.yy",},
+    {"name":"spr_shot_player_two","order":2,"path":"sprites/spr_shot_player_two/spr_shot_player_two.yy",},
     {"name":"spr_effect_shot_enemy","order":3,"path":"sprites/spr_effect_shot_enemy/spr_effect_shot_enemy.yy",},
     {"name":"spr_enemy_alien","order":2,"path":"sprites/spr_enemy_alien/spr_enemy_alien.yy",},
     {"name":"obj_shot_octopus","order":1,"path":"objects/obj_shot_octopus/obj_shot_octopus.yy",},
