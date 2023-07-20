@@ -1,6 +1,7 @@
 /// @description 
 // 
 vspeed = 1;
+points = 10;
 time_shot = 60;
 alarm[0] = time_shot * irandom_range(1,3);
 shooting = function() {

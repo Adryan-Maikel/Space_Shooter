@@ -8,3 +8,4 @@ shooting = function() {
 		instance_create_layer(x,y+sprite_height/2,"Instances",obj_shot_alien);
 	} 
 }
+points = 20;
