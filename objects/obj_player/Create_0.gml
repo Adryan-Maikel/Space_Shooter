@@ -11,10 +11,13 @@ movement = function() {
 	x += (_right - _left)*_speed;
 	y += (_down - _up)*_speed;
 }
-// Função para atirar frequentemente
+
+// Variáveis de tiro
 speed_shot = 30;
 was_fired = false;
 shot_level = 1;
+
+// Função de tiro
 shooting = function() {
 	var _space = keyboard_check(vk_space);
 	var _y = y-sprite_height/2;
@@ -25,29 +28,26 @@ shooting = function() {
 				instance_create_layer(x, _y, "Instances", obj_shot_player);
 			break;
 			case 2:
-				// Tiro da esquerda
-				var _shot_one = instance_create_layer(x-45, _y, "Instances", obj_shot_player_two);
-				_shot_one.hspeed = -10;
-				// Tiro da direita
-				var _shot_two = instance_create_layer(x+45, _y, "Instances", obj_shot_player_two);
-				_shot_two.hspeed = 10;
-			
+				double_shot();
 			break;
 			case 3:
-			  // Tiro da esquerda
-				
-				var _shot_one = instance_create_layer(x-45, _y, "Instances", obj_shot_player_two);
-				_shot_one.hspeed = -10;
-				// Tiro do meio
-				instance_create_layer(x, y, "Instances", obj_shot_player);
-				// Tiro da direita
-				var _shot_two = instance_create_layer(x+45, _y, "Instances", obj_shot_player_two);
-				_shot_two.hspeed = 10;
-				
+				double_shot();
+				instance_create_layer(x, _y, "Instances", obj_shot_player);
 			break;
 		}
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
 	//teste
 	if keyboard_check_pressed(vk_up) shot_level++; else if keyboard_check_pressed(vk_down) shot_level--;
+}
+
+// Função de tiro duplo
+double_shot = function() {
+	var _y = y-sprite_height/2;
+	// Tiro da esquerda
+	var _shot_one = instance_create_layer(x-45, _y, "Instances", obj_shot_player_two);
+	_shot_one.hspeed = -10;
+	// Tiro da direita
+	var _shot_two = instance_create_layer(x+45, _y, "Instances", obj_shot_player_two);
+	_shot_two.hspeed = 10;
 }
