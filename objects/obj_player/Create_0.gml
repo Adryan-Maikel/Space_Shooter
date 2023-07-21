@@ -17,18 +17,33 @@ was_fired = false;
 shot_level = 1;
 shooting = function() {
 	var _space = keyboard_check(vk_space);
+	var _y = y-sprite_height/2;
 	if _space and not was_fired {
 		was_fired = true;
 		switch shot_level {
 			default:
-				instance_create_layer(x, y-sprite_height/2, "Instances", obj_shot_player);
+				instance_create_layer(x, _y, "Instances", obj_shot_player);
 			break;
 			case 2:
-				instance_create_layer(x-45, y-sprite_height/2, "Instances", obj_shot_player_two);
-				instance_create_layer(x+45, y-sprite_height/2, "Instances", obj_shot_player_two);
+				// Tiro da esquerda
+				var _shot_one = instance_create_layer(x-45, _y, "Instances", obj_shot_player_two);
+				_shot_one.hspeed = -10;
+				// Tiro da direita
+				var _shot_two = instance_create_layer(x+45, _y, "Instances", obj_shot_player_two);
+				_shot_two.hspeed = 10;
+			
 			break;
 			case 3:
-		
+			  // Tiro da esquerda
+				
+				var _shot_one = instance_create_layer(x-45, _y, "Instances", obj_shot_player_two);
+				_shot_one.hspeed = -10;
+				// Tiro do meio
+				instance_create_layer(x, y, "Instances", obj_shot_player);
+				// Tiro da direita
+				var _shot_two = instance_create_layer(x+45, _y, "Instances", obj_shot_player_two);
+				_shot_two.hspeed = 10;
+				
 			break;
 		}
 		if alarm[0] <= 0 alarm[0] = speed_shot;
