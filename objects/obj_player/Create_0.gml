@@ -24,7 +24,8 @@ shooting = function() {
 				instance_create_layer(x, y-sprite_height/2, "Instances", obj_shot_player);
 			break;
 			case 2:
-				instance_create_layer(x, y-sprite_height/2, "Instances", obj_shot_player_two);
+				instance_create_layer(x-45, y-sprite_height/2, "Instances", obj_shot_player_two);
+				instance_create_layer(x+45, y-sprite_height/2, "Instances", obj_shot_player_two);
 			break;
 			case 3:
 		
