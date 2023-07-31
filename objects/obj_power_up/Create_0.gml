@@ -1,3 +1,4 @@
 /// @description 
 // 
-hspeed = -.2;
+vspeed = .5;
+collision_plane = false;
