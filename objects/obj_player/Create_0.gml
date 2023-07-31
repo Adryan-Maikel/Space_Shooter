@@ -35,25 +35,18 @@ shooting = function() {
 				instance_create_layer(x, _y, "Instances", obj_shot_player);
 			break;
 			case 4:
-			 var _direction = 90+45;
-			 /*	 Primeira maneira de fazer
-				var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
-				_shot.direction = 90;_shot.image_angle = _shot.direction-90;
-				var _shot_two = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
-				_shot_two.direction = 90+45;_shot_two.image_angle = _shot_two.direction-90;
-				var _shot_three = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
-				_shot_three.direction = 90-45; _shot_three.image_angle = _shot_three.direction-90;
-				*/ //E o mesmo resultado
-				repeat 3 {
-					var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
-					_shot.direction = _direction;_direction-=45;_shot.image_angle = _shot.direction-90;
-				}
+			 triple_shot();
+			break;
+			case 5:
+				double_shot();
+				triple_shot();
 			break;
 		}
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
 	//teste
 	if keyboard_check_pressed(vk_up) shot_level++; else if keyboard_check_pressed(vk_down) shot_level--;
+	if keyboard_check_pressed(vk_left) speed_shot *= .9; else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
 }
 
 // Função de tiro duplo
@@ -65,4 +58,22 @@ double_shot = function() {
 	// Tiro da direita
 	var _shot_two = instance_create_layer(x+45, _y, "Instances", obj_shot_player_two);
 	_shot_two.hspeed = 10;
+}
+
+// Função do tiro triplo
+triple_shot = function() {
+	var _y = y-sprite_height/2;
+	/*	 Primeira maneira de fazer
+	var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+	_shot.direction = 90;_shot.image_angle = _shot.direction-90;
+	var _shot_two = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+	_shot_two.direction = 90+45;_shot_two.image_angle = _shot_two.direction-90;
+	var _shot_three = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+	_shot_three.direction = 90-45; _shot_three.image_angle = _shot_three.direction-90;
+	*/ //E o mesmo resultado
+	var _direction = 90+20;
+	repeat 3 {
+		var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+		_shot.direction = _direction;_direction-=20;_shot.image_angle = _shot.direction-90;
+	}
 }
