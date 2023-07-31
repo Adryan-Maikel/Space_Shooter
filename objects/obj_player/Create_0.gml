@@ -34,6 +34,21 @@ shooting = function() {
 				double_shot();
 				instance_create_layer(x, _y, "Instances", obj_shot_player);
 			break;
+			case 4:
+			 var _direction = 90+45;
+			 /*	 Primeira maneira de fazer
+				var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+				_shot.direction = 90;_shot.image_angle = _shot.direction-90;
+				var _shot_two = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+				_shot_two.direction = 90+45;_shot_two.image_angle = _shot_two.direction-90;
+				var _shot_three = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+				_shot_three.direction = 90-45; _shot_three.image_angle = _shot_three.direction-90;
+				*/ //E o mesmo resultado
+				repeat 3 {
+					var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
+					_shot.direction = _direction;_direction-=45;_shot.image_angle = _shot.direction-90;
+				}
+			break;
 		}
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
