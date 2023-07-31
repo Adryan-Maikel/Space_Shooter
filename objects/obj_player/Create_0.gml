@@ -44,9 +44,9 @@ shooting = function() {
 		}
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
-	//teste
-	if keyboard_check_pressed(vk_up) shot_level++; else if keyboard_check_pressed(vk_down) shot_level--;
-	if keyboard_check_pressed(vk_left) speed_shot *= .9; else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
+	//testes
+	if keyboard_check_pressed(vk_up) level_up(); else if keyboard_check_pressed(vk_down) shot_level--;
+	if keyboard_check_pressed(vk_left) and shot_speed_up(); else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
 }
 
 // Função de tiro duplo
@@ -76,4 +76,19 @@ triple_shot = function() {
 		var _shot = instance_create_layer(x, _y+10, "Instances", obj_shot_player);
 		_shot.direction = _direction;_direction-=20;_shot.image_angle = _shot.direction-90;
 	}
+}
+
+// Função para aumentar a velocidade do tiro
+shot_speed_up = function() {
+	if speed_shot >= 20 speed_shot *= .9;
+}
+
+// Função para aumentar a velocidade da nave
+player_speed_up = function() {
+	if _speed < 8 _speed++;
+}
+
+// Função para subir de nivel
+level_up = function() {
+	if shot_level < 5 shot_level++;
 }
