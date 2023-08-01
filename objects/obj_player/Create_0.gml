@@ -1,5 +1,14 @@
 /// @description Movimentação e tiro
-// Função de movimentação do player
+#region Função de vidas do player
+// Vidas do player
+lifes_player = 3;
+///@method lose_life();
+lose_life = function() { 
+	if lifes_player > 0 lifes_player--; else instance_destroy();
+}
+#endregion
+
+#region Função de movimentação do player
 _speed = 5;
 movement = function() {
 	var _left,_right,_up,_down;
@@ -11,6 +20,7 @@ movement = function() {
 	x += (_right - _left)*_speed;
 	y += (_down - _up)*_speed;
 }
+#endregion
 
 #region Funções de tiros
 // Variáveis de tiro
