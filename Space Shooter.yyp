@@ -51,7 +51,7 @@
     {"id":{"name":"obj_shot_player_two","path":"objects/obj_shot_player_two/obj_shot_player_two.yy",},},
     {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},},
     {"id":{"name":"obj_enemy_alien","path":"objects/obj_enemy_alien/obj_enemy_alien.yy",},},
-    {"id":{"name":"sqc_game_over","path":"sequences/sqc_game_over/sqc_game_over.yy",},},
+    {"id":{"name":"seq_game_over","path":"sequences/seq_game_over/seq_game_over.yy",},},
     {"id":{"name":"obj_shot_player","path":"objects/obj_shot_player/obj_shot_player.yy",},},
     {"id":{"name":"obj_impact_shot","path":"objects/obj_impact_shot/obj_impact_shot.yy",},},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},},
