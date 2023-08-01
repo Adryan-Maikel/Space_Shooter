@@ -3,3 +3,5 @@
 movement();
 // Atirando
 shooting();
+// Escudo
+active_shield();

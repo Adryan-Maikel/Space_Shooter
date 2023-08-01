@@ -97,3 +97,11 @@ level_up = function() {
 }
 #endregion
 
+#region Função do escudo
+obj_shield.target = id;
+active_shield = function() {
+	if keyboard_check_pressed(ord("E")) {
+		instance_create_layer(x, y, "Instance_shield", obj_shield);
+	}
+}
+#endregion
