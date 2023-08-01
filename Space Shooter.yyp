@@ -24,6 +24,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objs enemys","folderPath":"folders/Objetos/objs enemys.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objs game","folderPath":"folders/Objetos/objs game.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objs player","folderPath":"folders/Objetos/objs player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objs power up","folderPath":"folders/Objetos/objs power up.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequências","folderPath":"folders/Sequências.yy",},
@@ -35,13 +36,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs enemys","folderPath":"folders/Sprites/sprs enemys.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs player","folderPath":"folders/Sprites/sprs player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs power ups","folderPath":"folders/Sprites/sprs power ups.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objs power up","folderPath":"folders/Objetos/objs power up.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"spr_effect_shot_player","path":"sprites/spr_effect_shot_player/spr_effect_shot_player.yy",},},

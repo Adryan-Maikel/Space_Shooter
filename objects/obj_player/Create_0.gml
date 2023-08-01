@@ -12,6 +12,7 @@ movement = function() {
 	y += (_down - _up)*_speed;
 }
 
+#region Funções de tiros
 // Variáveis de tiro
 speed_shot = 30;
 was_fired = false;
@@ -46,7 +47,7 @@ shooting = function() {
 	}
 	//testes
 	if keyboard_check_pressed(vk_up) level_up(); else if keyboard_check_pressed(vk_down) shot_level--;
-	if keyboard_check_pressed(vk_left) and shot_speed_up(); else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
+	if keyboard_check_pressed(vk_left) shot_speed_up() else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
 }
 
 // Função de tiro duplo
@@ -77,7 +78,9 @@ triple_shot = function() {
 		_shot.direction = _direction;_direction-=20;_shot.image_angle = _shot.direction-90;
 	}
 }
+#endregion
 
+#region Funções para upgrades
 // Função para aumentar a velocidade do tiro
 shot_speed_up = function() {
 	if speed_shot >= 20 speed_shot *= .9;
@@ -92,3 +95,5 @@ player_speed_up = function() {
 level_up = function() {
 	if shot_level < 5 shot_level++;
 }
+#endregion
+
