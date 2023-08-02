@@ -3,7 +3,7 @@
 alarm[0] = game_get_speed(gamespeed_fps);
 
 // Criando sistema de waves com leveis
-level = 10;
+level = 1;
 next_level = 100;
 
 game_over_seq = noone

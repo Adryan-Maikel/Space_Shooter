@@ -71,6 +71,7 @@
     {"id":{"name":"src_initial","path":"scripts/src_initial/src_initial.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_enemy_alien","path":"sprites/spr_enemy_alien/spr_enemy_alien.yy",},},
+    {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"obj_shot_octopus","path":"objects/obj_shot_octopus/obj_shot_octopus.yy",},},
     {"id":{"name":"obj_explosion_enemy","path":"objects/obj_explosion_enemy/obj_explosion_enemy.yy",},},
     {"id":{"name":"spr_impact_shot","path":"sprites/spr_impact_shot/spr_impact_shot.yy",},},
