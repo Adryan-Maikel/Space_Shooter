@@ -3,7 +3,7 @@
 alarm[0] = game_get_speed(gamespeed_fps);
 
 // Criando sistema de waves com leveis
-level = 1;
+level = 10;
 next_level = 100;
 
 game_over_seq = noone
@@ -24,7 +24,7 @@ earn_points = function(_amount_points) {
 creating_enemys = function() {
 	var _x, _y, _enemy_choose;
 	_x = irandom_range(40, room_width-40);
-	_y =  irandom_range(-90, -1000);
+	_y =  irandom_range(-90, -1000-(level*800));
 	_enemy_choose = obj_enemy_octopus; 
 	if irandom_range(0, 0+level) > 2 _enemy_choose = obj_enemy_alien;
 	instance_create_layer(_x, _y, "Instances", _enemy_choose);

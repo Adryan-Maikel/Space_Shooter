@@ -108,11 +108,14 @@ level_up = function() {
 #endregion
 
 #region Função do escudo
-
+shields = 3;
+actived_shield = false;
 active_shield = function() {
-	if keyboard_check_pressed(ord("E")) {
+	if keyboard_check_pressed(ord("E")) and shields > 0 and not actived_shield {
 		instance_create_layer(x, y, "Instance_shield", obj_shield);
 		obj_shield.target = id;
+		actived_shield = true;
+		shields--;
 	}
 }
 #endregion
