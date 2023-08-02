@@ -3,8 +3,14 @@
 // Vidas do player
 lifes_player = 3;
 ///@method lose_life();
-lose_life = function() { 
-	if lifes_player > 0 lifes_player--; else instance_destroy();
+lose_life = function() {
+	if lifes_player > 0 {
+		lifes_player--;
+		screenshake(5);
+	} else {
+		instance_destroy();
+		screenshake(20);
+	}
 }
 #endregion
 

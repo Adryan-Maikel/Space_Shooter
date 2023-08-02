@@ -7,7 +7,7 @@
 view_set_xport(0, random_range(-shake, shake));
 view_set_yport(0, random_range(-shake, shake));
 
-shake *= .97;
+shake *= .95;
 
 if shake <= 0.4 {
 	instance_destroy();
