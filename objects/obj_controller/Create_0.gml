@@ -6,6 +6,8 @@ alarm[0] = game_get_speed(gamespeed_fps);
 level = 1;
 next_level = 100;
 
+game_over_seq = noone
+
 #region Criando função de pontuação e progressão do level
 points = 0;
 ///@method earn_points(points)

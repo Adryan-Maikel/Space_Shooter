@@ -1,5 +1,7 @@
 /// @description 
 // 
-if not instance_exists(obj_player) and not layer_sequence_exists("game_over", seq_game_over.id) {
-	layer_sequence_create("game_over", room_width/2, room_height/2, seq_game_over);
+if not instance_exists(obj_player) and not game_over_seq {
+	var _x = room_width/2, _y = room_height/2;
+	game_over_seq = layer_sequence_create("game_over", _x, _y, seq_game_over);
+	
 }

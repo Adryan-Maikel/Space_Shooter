@@ -34,15 +34,15 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs background","folderPath":"folders/Sprites/sprs background.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs effects","folderPath":"folders/Sprites/sprs effects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs enemys","folderPath":"folders/Sprites/sprs enemys.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs hud","folderPath":"folders/Sprites/sprs hud.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs player","folderPath":"folders/Sprites/sprs player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs power ups","folderPath":"folders/Sprites/sprs power ups.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprs hud","folderPath":"folders/Sprites/sprs hud.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"spr_effect_shot_player","path":"sprites/spr_effect_shot_player/spr_effect_shot_player.yy",},},
