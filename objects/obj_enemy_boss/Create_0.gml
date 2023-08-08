@@ -2,9 +2,10 @@
 //
 state_actual = "state_two"//choose("state_one", "state_two", "state_three");
 delay_shot = game_get_speed(gamespeed_fps)/2;
-delay_state = game_get_speed(gamespeed_fps)*10;
+delay_state = game_get_speed(gamespeed_fps)*5;
 next_state = delay_state;
-
+speed_horizontal = 3;
+goto_center = false;
 #region funções dos estados do boss
 state_one = function() {
 	delay_shot--;
@@ -14,6 +15,13 @@ state_one = function() {
 	}
 }
 state_two = function() {
+	// Movimentação do boss
+	x+=speed_horizontal;
+	if x + sprite_width/2 >= room_width - 5 or x - sprite_width/2 <= 5 {
+		speed_horizontal*=-1;
+	}
+	
+	// Tiro
 	delay_shot--;
 	if delay_shot <= 0 {
 		delay_shot = game_get_speed(gamespeed_fps);
@@ -27,4 +35,10 @@ state_three = function() {
 
 
 }
+
+state_four = function() {
+	
+
+}
 #endregion
+
