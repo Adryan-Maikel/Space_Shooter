@@ -103,18 +103,20 @@ triple_shot = function() {
 
 #region Funções para upgrades
 // Função para aumentar a velocidade do tiro
-shot_speed_up = function() {
-	if speed_shot >= 20 speed_shot *= .9;
-}
+if instance_exists(obj_controller) {
+	shot_speed_up = function() {
+		if speed_shot >= 20 speed_shot *= .9; else obj_controller.earn_points(10);
+	}
 
-// Função para aumentar a velocidade da nave
-player_speed_up = function() {
-	if _speed < 8 _speed++;
-}
+	// Função para aumentar a velocidade da nave
+	player_speed_up = function() {
+		if _speed < 8 _speed++; else obj_controller.earn_points(10);
+	}
 
-// Função para subir de nivel
-level_up = function() {
-	if shot_level < 5 shot_level++;
+	// Função para subir de nivel
+	level_up = function() {
+		if shot_level < 5 shot_level++; obj_controller.earn_points(100);
+	}
 }
 #endregion
 

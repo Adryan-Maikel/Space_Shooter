@@ -12,7 +12,7 @@ game_over_seq = noone
 points = 0;
 ///@method earn_points(points)
 earn_points = function(_amount_points) {
-	points += _amount_points; 
+	points += _amount_points * level; 
 	if points > next_level {
 		level++;
 		next_level*=2;
