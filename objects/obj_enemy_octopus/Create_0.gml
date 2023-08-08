@@ -20,5 +20,5 @@ if place_meeting(x, y, obj_enemy_octopus) {
 
 drop_items = function(_range) {
 	var _choose = irandom_range(0, 100);
-	if _choose < _range instance_create_layer(x, y-sprite_height/3, "Instances", obj_power_up);
+	if _choose <= _range and y > 64 instance_create_layer(x, y-sprite_height/3, "Instances", obj_power_up);
 }

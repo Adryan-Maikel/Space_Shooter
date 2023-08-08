@@ -27,8 +27,9 @@ movement = function() {
 	y += (_down - _up)*_speed;
 	
 	// Limitando o player para não sair da tela
-	if x <= 64 x = 64 else if x >= 1856 x = 1856
-	if y <= 64 y = 64 else if y >= 1024 y = 1024
+	//if x <= 64 x = 64 else if x >= 1856 x = 1856
+	//if y <= 64 y = 64 else if y >= 1024 y = 1024
+	x = clamp(x, 64, 1856); y = clamp(y, 64, 1024);
 }
 #endregion
 
