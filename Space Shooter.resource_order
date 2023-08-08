@@ -24,6 +24,8 @@
     {"name":"sprs hud","order":8,"path":"folders/Sprites/sprs hud.yy",},
     {"name":"sprs player","order":1,"path":"folders/Sprites/sprs player.yy",},
     {"name":"sprs power ups","order":7,"path":"folders/Sprites/sprs power ups.yy",},
+    {"name":"sprs boss","order":5,"path":"folders/Sprites/sprs enemys/sprs boss.yy",},
+    {"name":"obj boss","order":4,"path":"folders/Objetos/objs enemys/obj boss.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_effect_shot_player","order":2,"path":"sprites/spr_effect_shot_player/spr_effect_shot_player.yy",},
