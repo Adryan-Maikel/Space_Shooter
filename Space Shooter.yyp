@@ -57,6 +57,7 @@
     {"id":{"name":"obj_shot_player","path":"objects/obj_shot_player/obj_shot_player.yy",},},
     {"id":{"name":"obj_impact_shot","path":"objects/obj_impact_shot/obj_impact_shot.yy",},},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},},
+    {"id":{"name":"spr_children_boss","path":"sprites/spr_children_boss/spr_children_boss.yy",},},
     {"id":{"name":"spr_shot_small_enemys","path":"sprites/spr_shot_small_enemys/spr_shot_small_enemys.yy",},},
     {"id":{"name":"spr_shot_big_enemys","path":"sprites/spr_shot_big_enemys/spr_shot_big_enemys.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -73,6 +74,7 @@
     {"id":{"name":"spr_enemy_boss","path":"sprites/spr_enemy_boss/spr_enemy_boss.yy",},},
     {"id":{"name":"obj_enemy_boss","path":"objects/obj_enemy_boss/obj_enemy_boss.yy",},},
     {"id":{"name":"src_initial","path":"scripts/src_initial/src_initial.yy",},},
+    {"id":{"name":"obj_shot_children_boss","path":"objects/obj_shot_children_boss/obj_shot_children_boss.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_enemy_alien","path":"sprites/spr_enemy_alien/spr_enemy_alien.yy",},},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
@@ -82,6 +84,7 @@
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_enemy_boss_shield","path":"sprites/spr_enemy_boss_shield/spr_enemy_boss_shield.yy",},},
+    {"id":{"name":"obj_children_boss","path":"objects/obj_children_boss/obj_children_boss.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
