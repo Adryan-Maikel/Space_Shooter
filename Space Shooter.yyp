@@ -57,7 +57,6 @@
     {"id":{"name":"obj_shot_player","path":"objects/obj_shot_player/obj_shot_player.yy",},},
     {"id":{"name":"obj_impact_shot","path":"objects/obj_impact_shot/obj_impact_shot.yy",},},
     {"id":{"name":"spr_power_up","path":"sprites/spr_power_up/spr_power_up.yy",},},
-    {"id":{"name":"spr_children_boss","path":"sprites/spr_children_boss/spr_children_boss.yy",},},
     {"id":{"name":"spr_shot_small_enemys","path":"sprites/spr_shot_small_enemys/spr_shot_small_enemys.yy",},},
     {"id":{"name":"spr_shot_big_enemys","path":"sprites/spr_shot_big_enemys/spr_shot_big_enemys.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

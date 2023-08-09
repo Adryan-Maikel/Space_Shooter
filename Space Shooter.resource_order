@@ -33,7 +33,6 @@
     {"name":"obj_shot_player_two","order":2,"path":"objects/obj_shot_player_two/obj_shot_player_two.yy",},
     {"name":"obj_enemy_alien","order":2,"path":"objects/obj_enemy_alien/obj_enemy_alien.yy",},
     {"name":"obj_shot_player","order":1,"path":"objects/obj_shot_player/obj_shot_player.yy",},
-    {"name":"spr_children_boss","order":2,"path":"sprites/spr_children_boss/spr_children_boss.yy",},
     {"name":"spr_shot_small_enemys","order":1,"path":"sprites/spr_shot_small_enemys/spr_shot_small_enemys.yy",},
     {"name":"spr_shot_big_enemys","order":3,"path":"sprites/spr_shot_big_enemys/spr_shot_big_enemys.yy",},
     {"name":"spr_effects_background_1","order":1,"path":"sprites/spr_effects_background_1/spr_effects_background_1.yy",},
