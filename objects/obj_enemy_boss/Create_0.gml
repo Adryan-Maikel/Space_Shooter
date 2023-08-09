@@ -10,6 +10,9 @@ speed_horizontal = 3;
 goto_center = false;
 left = true;
 right = false;
+maximum_life = 2000;
+life = maximum_life;
+
 #region Tiros
 ///@method shot_one();
 shot_one = function() {

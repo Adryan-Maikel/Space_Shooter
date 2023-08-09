@@ -20,4 +20,5 @@ if goto_center {
 		}
 		if x == room_width/2 goto_center = false;
 }
-show_debug_message(goto_center)
+
+if keyboard_check(vk_enter) life-=10;
