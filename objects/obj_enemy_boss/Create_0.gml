@@ -4,7 +4,7 @@ state_actual = "state_four"//choose("state_one", "state_two", "state_three");
 reset_delay =  game_get_speed(gamespeed_fps);
 delay_shot = reset_delay;
 delay_shot_two = game_get_speed(gamespeed_fps);
-delay_state = game_get_speed(gamespeed_fps)*6;
+delay_state = game_get_speed(gamespeed_fps)*10;
 next_state = delay_state;
 speed_horizontal = 3;
 goto_center = false;
@@ -12,6 +12,7 @@ left = true;
 right = false;
 maximum_life = 2000;
 life = maximum_life;
+created_children = false;
 
 #region Tiros
 ///@method shot_one();
@@ -73,7 +74,11 @@ state_three = function() {
 ///@method state_four();
 state_four = function() {
 	sprite_index = spr_enemy_boss_shield;
-
+	if created_children {
+		instance_create_layer(243, 573.639, "Instances", obj_children_boss);
+		instance_create_layer(1680, 568.479, "Instances", obj_children_boss);
+		created_children = false;
+	}
 }
 #endregion
 
