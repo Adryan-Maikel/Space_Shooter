@@ -47,5 +47,6 @@
     {"name":"obj_screenshake","order":1,"path":"objects/obj_screenshake/obj_screenshake.yy",},
     {"name":"obj_shot_octopus","order":1,"path":"objects/obj_shot_octopus/obj_shot_octopus.yy",},
     {"name":"obj_explosion_enemy","order":1,"path":"objects/obj_explosion_enemy/obj_explosion_enemy.yy",},
+    {"name":"spr_enemy_boss_shield","order":1,"path":"sprites/spr_enemy_boss_shield/spr_enemy_boss_shield.yy",},
   ],
 }

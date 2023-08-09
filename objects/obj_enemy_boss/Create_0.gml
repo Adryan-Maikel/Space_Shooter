@@ -1,6 +1,6 @@
 /// @description 
 //
-state_actual = "state_three"//choose("state_one", "state_two", "state_three");
+state_actual = "state_four"//choose("state_one", "state_two", "state_three");
 reset_delay =  game_get_speed(gamespeed_fps);
 delay_shot = reset_delay;
 delay_shot_two = game_get_speed(gamespeed_fps);
@@ -72,7 +72,7 @@ state_three = function() {
 }
 ///@method state_four();
 state_four = function() {
-	
+	sprite_index = spr_enemy_boss_shield;
 
 }
 #endregion

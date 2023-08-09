@@ -81,6 +81,7 @@
     {"id":{"name":"spr_impact_shot","path":"sprites/spr_impact_shot/spr_impact_shot.yy",},},
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_enemy_boss_shield","path":"sprites/spr_enemy_boss_shield/spr_enemy_boss_shield.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

@@ -2,6 +2,7 @@
 // 
 next_state--;
 if next_state <= 0 {
+	sprite_index = spr_enemy_boss;
 	next_state = delay_state;
 	state_actual = choose("state_one", "state_two", "state_three");
 	if x != room_width/2 goto_center = true;
@@ -10,6 +11,7 @@ if next_state <= 0 {
 if state_actual == "state_one" state_one(); 
 else if state_actual == "state_two" state_two();
 else if state_actual == "state_three" state_three();
+else if state_actual == "state_four" state_four();
 	
 if goto_center {
 		if x > room_width/2 {
