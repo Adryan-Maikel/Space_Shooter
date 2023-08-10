@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "sprs boss",
-    "path": "folders/Sprites/sprs enemys/sprs boss.yy",
+    "path": "folders/Sprites/sprs boss.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

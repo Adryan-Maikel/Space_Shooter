@@ -1,26 +1,28 @@
 /// @description 
 //
-state_actual = "state_four"//choose("state_one", "state_two", "state_three");
+state_actual = choose("state_one", "state_two", "state_three");
 reset_delay =  game_get_speed(gamespeed_fps);
 delay_shot = reset_delay;
 delay_shot_two = game_get_speed(gamespeed_fps);
-delay_state = game_get_speed(gamespeed_fps)*5;
+delay_state = game_get_speed(gamespeed_fps)*10;
 next_state = delay_state;
 speed_horizontal = 3;
 goto_center = false;
 left = true;
 right = false;
 maximum_life = 2000;
-life = maximum_life;
+life = 2//maximum_life;
 created_children = false;
 
 #region Tiros
 ///@method shot_one();
 shot_one = function() {
+	if not instance_exists(obj_enemy_boss) or not instance_exists(obj_player) exit;
 	instance_create_layer(x, y+80, "Instances_shot_boss", obj_shot_alien);
 }
 ///@method shot_two(bool);
 shot_two = function(_direction) {
+	if not instance_exists(obj_enemy_boss) or not instance_exists(obj_player) exit;
 	var _position_x = 0;
 	if _direction == left _position_x = -161 
 	if _direction == right _position_x = 161;
@@ -32,8 +34,8 @@ shot_two = function(_direction) {
 	var _shot_two = instance_create_layer(x+161, y+22, "Instances_shot_boss", obj_shot_octopus);
 	_shot_two.image_xscale/=2; _shot_two.image_yscale/=2;
 */
+		
 }
-
 #endregion
 
 #region funções dos estados do boss
@@ -81,4 +83,3 @@ state_four = function() {
 	}
 }
 #endregion
-

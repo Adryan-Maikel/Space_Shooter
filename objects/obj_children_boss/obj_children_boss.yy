@@ -13,8 +13,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj boss",
-    "path": "folders/Objetos/objs enemys/obj boss.yy",
+    "name": "objs boss",
+    "path": "folders/Objetos/objs boss.yy",
   },
   "parentObjectId": null,
   "persistent": false,

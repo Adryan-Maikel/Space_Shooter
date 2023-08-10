@@ -12,6 +12,7 @@ if next_state <= 0 {
 	if x != room_width/2 goto_center = true;
 }
 
+
 if state_actual == "state_one" {
 	state_one();
 } else if state_actual == "state_two" {
@@ -19,8 +20,11 @@ if state_actual == "state_one" {
 } else if state_actual == "state_three" {
 	state_three();
 } else if state_actual == "state_four" {
+	if not instance_exists(obj_children_boss)
+		created_children = true;
 	state_four();
 }
+
 	
 if goto_center {
 		if x > room_width/2 {

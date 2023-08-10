@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj boss",
-    "path": "folders/Objetos/objs enemys/obj boss.yy",
+    "name": "objs boss",
+    "path": "folders/Objetos/objs boss.yy",
   },
   "parentObjectId": {
     "name": "obj_shot_alien",
