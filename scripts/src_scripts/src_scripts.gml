@@ -6,3 +6,7 @@ function screenshake(_shake) {
 	var _screenshake = instance_create_layer(x,y,"Instances",obj_screenshake);
 	_screenshake.shake = _shake;
 }
+function destroy_sequence() {
+	var _elements = layer_get_all_elements("Start_boss");
+	layer_sequence_destroy(_elements[0]);
+}
