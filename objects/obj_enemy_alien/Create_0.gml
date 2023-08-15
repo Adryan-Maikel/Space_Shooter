@@ -4,7 +4,7 @@ event_inherited();
 
 can_move = true; // Variavel para ver se o inimigo pode se mover
 
-range = 30;
+range = 50;
 
 points = 20; // QUantos pontos ganha ao ser morto pelo player
 
