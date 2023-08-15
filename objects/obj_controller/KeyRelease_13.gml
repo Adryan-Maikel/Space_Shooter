@@ -1,5 +1,5 @@
 /// @description 
 // 
 if game_over_seq {
-	room_restart();
+	room_goto(rm_initial);
 }
