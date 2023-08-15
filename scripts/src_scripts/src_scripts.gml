@@ -11,3 +11,10 @@ function destroy_sequence() {
 	layer_sequence_destroy(_elements[0]);
 	instance_create_layer(960, 288, "Instance_boss", obj_enemy_boss);
 }
+function player_go_home() {
+	if instance_exists(obj_player) {
+		layer_sequence_create("Game_over", obj_player.x, obj_player.y, seq_player_go_home);
+		instance_destroy(obj_player);
+	}
+	
+}

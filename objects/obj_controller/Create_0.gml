@@ -5,8 +5,11 @@ alarm[0] = game_get_speed(gamespeed_fps);
 // Criando sistema de waves com leveis
 level = 1;
 next_level = 100;
+level_complete = false;
 
-game_over_seq = noone
+game_over_seq = noone;
+
+creating_boss = true;
 
 #region Criando função de pontuação e progressão do level
 points = 0;

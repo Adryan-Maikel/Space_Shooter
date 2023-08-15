@@ -21,7 +21,11 @@
   "moments": {
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion": "1.0",
-    "Keyframes": [],
+    "Keyframes": [
+      {"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"MomentsEventKeyframe","resourceVersion":"1.0","Events":[
+              "player_go_home",
+            ],},},"Disabled":false,"id":"13d47b11-ca69-469c-b439-361f352389b4","IsCreationKey":false,"Key":438.0,"Length":1.0,"Stretch":false,},
+    ],
   },
   "parent": {
     "name": "Sequências",
