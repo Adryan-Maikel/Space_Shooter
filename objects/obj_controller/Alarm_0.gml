@@ -2,7 +2,7 @@
 // Criando os inimigos quando não existir mais inimigos na tela
 if not instance_exists(obj_enemy_octopus) {
 	var _repeat = 10 * level;
-	if level < 2 {
+	if level < 10 {
 		repeat _repeat creating_enemys();
 	} else if creating_boss {
 		creating_boss = false;

@@ -6,6 +6,7 @@ lifes_player = 3;
 lose_life = function() {
 	if lifes_player > 0 {
 		lifes_player--;
+		global.times_died++;	
 		screenshake(5);
 	} else {
 		instance_destroy();

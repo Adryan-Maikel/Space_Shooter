@@ -2,4 +2,4 @@
 // Chamando função do tiro
 shooting();
 // Fazendo o inimigo atirar novamente
-alarm[0] = time_shot * irandom_range(1,3);
+alarm[0] = time_shot * irandom_range(1,4);

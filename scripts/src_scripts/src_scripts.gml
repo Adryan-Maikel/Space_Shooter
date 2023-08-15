@@ -11,15 +11,21 @@ function screenshake(_shake) {
 	var _screenshake = instance_create_layer(x,y,"Instances",obj_screenshake);
 	_screenshake.shake = _shake;
 }
+
 function destroy_sequence() {
 	var _elements = layer_get_all_elements("Start_boss");
 	layer_sequence_destroy(_elements[0]);
 	instance_create_layer(960, 288, "Instance_boss", obj_enemy_boss);
 }
+
 function player_go_home() {
 	if instance_exists(obj_player) {
 		layer_sequence_create("Game_over", obj_player.x, obj_player.y, seq_player_go_home);
 		instance_destroy(obj_player);
 	}
-	
+}
+
+function go_rm_initial() {
+	instance_create_layer(0, 0, "Instances", obj_transition);
+	obj_transition.destiny = rm_initial;
 }

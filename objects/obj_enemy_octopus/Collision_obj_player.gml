@@ -1,5 +1,6 @@
 /// @description 
 // 
+global.total_enemies_killed++;
 if instance_exists(obj_controller) obj_controller.earn_points(points);
 instance_destroy();
 other.lose_life();

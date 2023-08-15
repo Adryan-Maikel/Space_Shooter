@@ -1,3 +1,3 @@
 /// @description Destruindo o tiro
 // Destruindo ao sair da tela por cima
-if y < -10 instance_destroy();
+if y < -12 instance_destroy();
