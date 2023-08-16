@@ -7,6 +7,9 @@ if not instance_exists(obj_enemy_octopus) {
 	} else if creating_boss {
 		creating_boss = false;
 		layer_sequence_create("Start_boss", 960, 512, seq_start_boss);
+		if instance_exists(obj_music) {
+			obj_music.boss_fight = true;
+		}
 	}
 }
 // Resetando alarm

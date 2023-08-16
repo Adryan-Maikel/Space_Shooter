@@ -19,6 +19,7 @@ created_children = false;
 shot_one = function() {
 	if not instance_exists(obj_enemy_boss) or not instance_exists(obj_player) exit;
 	instance_create_layer(x, y+80, "Instances_shot_boss", obj_shot_alien);
+	audio_play_sound(snd_laser_one, 1, 0);
 }
 ///@method shot_two(bool);
 shot_two = function(_direction) {
@@ -28,6 +29,7 @@ shot_two = function(_direction) {
 	if _direction == right _position_x = 161;
 	var _shot = instance_create_layer(x+_position_x, y+22, "Instances_shot_boss", obj_shot_octopus);
 	_shot.image_xscale/=2; _shot.image_yscale/=2;
+	audio_play_sound(snd_laser_two, 1, 0);
 /* 
 	var _shot_one = instance_create_layer(x-161, y+22, "Instances_shot_boss", obj_shot_octopus);
 	_shot_one.image_xscale/=2; _shot_one.image_yscale/=2;

@@ -12,7 +12,7 @@ alarm[0] = time_shot * irandom_range(1,3);
 shooting = function() { // Função para criar o tiro
 	if y > 0 { 
 		instance_create_layer(x, y+sprite_height/2, "Instances", obj_shot_octopus);
-		audio_play_sound(snd_laser1, 1, 0);
+		audio_play_sound(snd_laser_one, 1, 0);
 	}
 }
 

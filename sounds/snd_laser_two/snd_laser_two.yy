@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "Aggressor",
+  "name": "snd_laser_two",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 238.8637,
+  "duration": 1.200567,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "Aggressor.mp3",
+  "soundFile": "snd_laser_two.ogg",
   "type": 0,
-  "volume": 0.2,
+  "volume": 0.24,
 }

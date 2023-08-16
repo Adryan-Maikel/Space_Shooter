@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_shieldDown",
+  "name": "snd_shield_down",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_shieldDown.ogg",
+  "soundFile": "snd_shield_down.ogg",
   "type": 0,
   "volume": 1.0,
 }

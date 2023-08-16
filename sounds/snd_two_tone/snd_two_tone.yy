@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_shieldUp",
+  "name": "snd_two_tone",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.293152,
+  "duration": 1.466712,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_shieldUp.ogg",
+  "soundFile": "snd_two_tone.ogg",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.24,
 }

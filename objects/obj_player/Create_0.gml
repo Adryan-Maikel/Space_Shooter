@@ -65,7 +65,7 @@ shooting = function() {
 				triple_shot();
 			break;
 		}
-		audio_play_sound(snd_laser2, 1, 0)
+		audio_play_sound(snd_laser_two, 1, 0)
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
 	//testes

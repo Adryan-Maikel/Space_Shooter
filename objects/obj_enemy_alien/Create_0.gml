@@ -9,5 +9,8 @@ range = 50;
 points = 20; // QUantos pontos ganha ao ser morto pelo player
 
 shooting = function() { // Função para atirar
-	if y > 0 instance_create_layer(x, y+sprite_height/2, "Instances", obj_shot_alien);
+	if y > 0 {
+		instance_create_layer(x, y+sprite_height/2, "Instances", obj_shot_alien);
+		audio_play_sound(snd_laser_one, 1, 0)
+	}
 }
