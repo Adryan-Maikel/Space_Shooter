@@ -11,7 +11,7 @@ goto_center = false;
 left = true;
 right = false;
 maximum_life = 2000;
-life = 2//maximum_life;
+life = maximum_life;
 created_children = false;
 
 #region Tiros

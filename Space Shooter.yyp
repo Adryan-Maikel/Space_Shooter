@@ -74,6 +74,7 @@
     {"id":{"name":"fnt_buttons","path":"fonts/fnt_buttons/fnt_buttons.yy",},},
     {"id":{"name":"spr_enemy_octopus","path":"sprites/spr_enemy_octopus/spr_enemy_octopus.yy",},},
     {"id":{"name":"snd_two_tone","path":"sounds/snd_two_tone/snd_two_tone.yy",},},
+    {"id":{"name":"fnt_points","path":"fonts/fnt_points/fnt_points.yy",},},
     {"id":{"name":"spr_shot_player","path":"sprites/spr_shot_player/spr_shot_player.yy",},},
     {"id":{"name":"snd_zap","path":"sounds/snd_zap/snd_zap.yy",},},
     {"id":{"name":"spr_effects_background_2","path":"sprites/spr_effects_background_2/spr_effects_background_2.yy",},},

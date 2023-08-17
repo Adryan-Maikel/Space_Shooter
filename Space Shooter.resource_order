@@ -45,6 +45,7 @@
     {"name":"spr_effects_background_1","order":1,"path":"sprites/spr_effects_background_1/spr_effects_background_1.yy",},
     {"name":"snd_boss_fight","order":9,"path":"sounds/snd_boss_fight/snd_boss_fight.yy",},
     {"name":"snd_two_tone","order":3,"path":"sounds/snd_two_tone/snd_two_tone.yy",},
+    {"name":"fnt_points","order":1,"path":"fonts/fnt_points/fnt_points.yy",},
     {"name":"spr_shot_player","order":1,"path":"sprites/spr_shot_player/spr_shot_player.yy",},
     {"name":"snd_zap","order":4,"path":"sounds/snd_zap/snd_zap.yy",},
     {"name":"spr_effects_background_2","order":2,"path":"sprites/spr_effects_background_2/spr_effects_background_2.yy",},
