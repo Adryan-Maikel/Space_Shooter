@@ -2,7 +2,7 @@
   "FolderOrderSettings": [
     {"name":"Anotações","order":12,"path":"folders/Anotações.yy",},
     {"name":"Caminhos","order":8,"path":"folders/Caminhos.yy",},
-    {"name":"Conjuntos de tiles","order":6,"path":"folders/Conjuntos de tiles.yy",},
+    {"name":"Conjuntos de tiles","order":7,"path":"folders/Conjuntos de tiles.yy",},
     {"name":"Curvas da animação","order":11,"path":"folders/Curvas da animação.yy",},
     {"name":"Extensões","order":13,"path":"folders/Extensões.yy",},
     {"name":"Fontes","order":5,"path":"folders/Fontes.yy",},
@@ -18,7 +18,7 @@
     {"name":"Scripts","order":1,"path":"folders/Scripts.yy",},
     {"name":"Sequências","order":4,"path":"folders/Sequências.yy",},
     {"name":"Shaders","order":9,"path":"folders/Shaders.yy",},
-    {"name":"Sons","order":7,"path":"folders/Sons.yy",},
+    {"name":"Sons","order":6,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
     {"name":"sprs background","order":3,"path":"folders/Sprites/sprs background.yy",},
     {"name":"sprs boss","order":1,"path":"folders/Sprites/sprs boss.yy",},

@@ -69,8 +69,8 @@ shooting = function() {
 		if alarm[0] <= 0 alarm[0] = speed_shot;
 	}
 	//testes
-	if keyboard_check_pressed(vk_up) level_up(); else if keyboard_check_pressed(vk_down) shot_level--;
-	if keyboard_check_pressed(vk_left) shot_speed_up() else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
+	//if keyboard_check_pressed(vk_up) level_up(); else if keyboard_check_pressed(vk_down) shot_level--;
+	//if keyboard_check_pressed(vk_left) shot_speed_up() else if keyboard_check_pressed(vk_right) speed_shot *= 1.1;
 }
 
 // Função de tiro duplo
